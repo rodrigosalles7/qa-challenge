@@ -31,7 +31,7 @@ test.describe('Swag Labs - UI Tests', () => {
     // Adicionar produtos
     await page.click('[data-test="add-to-cart-sauce-labs-backpack"]');
     await countCart(page, '1')
-    await page.click('[data-test="add-to-cart-sauce-labs-bike-light"]');
+    await page.click('[data-test="add-to-cart-sauce-labs-bike-lighttt"]');
     await countCart(page, '2')
     await page.click('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]');
     await countCart(page, '3')
