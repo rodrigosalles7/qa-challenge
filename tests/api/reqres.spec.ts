@@ -14,7 +14,7 @@ test.describe('API Reqres - Testes', () => {
     body.data.forEach(user => {
       expect(user).toHaveProperty('id');
       expect(user).toHaveProperty('first_name');
-      expect(user).toHaveProperty('last_namee');
+      expect(user).toHaveProperty('last_name');
       expect(user).toHaveProperty('email');
       expect(user.email).toMatch(/.+@.+\..+/);
     });
